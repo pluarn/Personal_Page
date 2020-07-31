@@ -27,6 +27,7 @@ a:hover {
 /* Custom default button */
 
 .btn,
+.btn-primary,
 .btn-secondary {
     color: #fff;
     text-shadow: none;
@@ -38,6 +39,8 @@ a:hover {
     text-transform: uppercase;
 }
 
+.btn-primary:hover,
+.btn-primary:focus,
 .btn-secondary:hover,
 .btn-secondary:focus {
     background-color: #677185;
