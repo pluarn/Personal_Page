@@ -297,13 +297,28 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+    background-color: #fff;
+    font-size: large;
 }
 
 .card-body,
-.card-text,
-.card-title {
+.card-text {
     background-color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+
+.date {
+    color: #677185;
+    text-transform: uppercase;
+    font-size: small;
+    margin: 0 0 0.5rem 0;
+}
+
+.global-nominee {
+    background-color: #fff;
+    color: rgb(255, 72, 72);
+    font-weight: bold;
 }
 
 
