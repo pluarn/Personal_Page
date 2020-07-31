@@ -128,6 +128,9 @@ body::-webkit-scrollbar-thumb {
     button {
         width: 30vw;
     }
+    .card {
+        margin: 2rem 1rem;
+    }
 }
 
 
@@ -286,10 +289,6 @@ button {
 
 
 /* Portfolio */
-
-.card {
-    margin: 2rem 1rem;
-}
 
 .card-title {
     text-transform: uppercase;
