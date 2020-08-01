@@ -244,7 +244,16 @@ body::-webkit-scrollbar-thumb {
   filter: drop-shadow(6px 6px 8px #6771854f);
   line-height: 2rem;
   padding: 0.3rem;
-  font-size: 0.8rem;
+  font-size: 4vw;
+}
+
+.skills {
+  background-color: #fff;
+  line-height: 2rem;
+  padding: 0.3rem;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
 }
 
 .bold {
