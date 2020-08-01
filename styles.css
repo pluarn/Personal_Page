@@ -134,6 +134,11 @@ body::-webkit-scrollbar-thumb {
     .card {
         margin: 2rem 1rem;
     }
+    .intro {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
 }
 
 
@@ -200,12 +205,13 @@ body::-webkit-scrollbar-thumb {
 .avatar {
     background-color: transparent;
     background-size: cover;
-    filter: drop-shadow(0 0 0.75rem #677185);
+    filter: drop-shadow(0 0 0.5rem #677185);
 }
 
 .containerBox {
     position: relative;
     display: inline-block;
+    background-color: transparent;
 }
 
 .text-box {
@@ -228,17 +234,20 @@ body::-webkit-scrollbar-thumb {
 .overlay {
     display: inline-block;
     color: #203968;
-    text-shadow: 0 0 8px #fff;
-    background-color: transparent;
+    /*text-shadow: 0 0 8px #fff;*/
+    background-color: #f5f6ff8a;
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px #f5f6ff;
 }
 
 .intro {
     background-color: #fff;
     border: 2px #677185 solid;
     border-radius: 3px;
-    filter: drop-shadow(0 0 0.1rem #fff);
-    line-height: 2.5rem;
+    filter: drop-shadow(6px 6px 8px #6771854f);
+    line-height: 2rem;
     padding: 0.3rem;
+    font-size: 0.85rem;
 }
 
 .bold {
