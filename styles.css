@@ -99,7 +99,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   button {
-      width: 40vw;
+    width: 40vw;
   }
 }
 
@@ -240,7 +240,6 @@ body::-webkit-scrollbar-thumb {
 
 .intro {
   background-color: #fff;
-  border: 2px #677185 solid;
   border-radius: 3px;
   filter: drop-shadow(6px 6px 8px #6771854f);
   line-height: 2rem;
@@ -346,8 +345,12 @@ button {
   margin: 0 4vw;
 }
 
+.fa-github-square {
+  color: #333;
+}
+
 .fa-facebook-square {
-  color: #3b5999;
+  color: #3b5998;
 }
 
 .fa-instagram {
@@ -373,5 +376,5 @@ button {
 }
 
 .fa-linkedin {
-  color: #0e76a8;
+  color: #0077b5;
 }
