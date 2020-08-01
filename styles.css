@@ -25,7 +25,6 @@ a:hover {
 /* Custom default button */
 
 .btn,
-.btn-primary,
 .btn-secondary {
   color: #fff;
   text-shadow: none;
@@ -37,8 +36,6 @@ a:hover {
   text-transform: uppercase;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: #677185;
@@ -97,9 +94,12 @@ body::-webkit-scrollbar-thumb {
   }
   input,
   select,
-  textarea,
-  button {
+  textarea {
     width: 60vw;
+  }
+
+  button {
+      width: 40vw;
   }
 }
 
@@ -124,10 +124,14 @@ body::-webkit-scrollbar-thumb {
   }
   input,
   select,
-  textarea,
-  button {
-    width: 30vw;
+  textarea {
+    width: 20vw;
   }
+
+  button {
+    width: 10vw;
+  }
+
   .card {
     margin: 2rem 1rem;
   }
@@ -318,7 +322,7 @@ button {
 
 .global-nominee {
   background-color: #fff;
-  color: rgb(255, 72, 72);
+  color: rgb(255, 51, 51);
   font-weight: bold;
 }
 
@@ -347,13 +351,27 @@ button {
 }
 
 .fa-instagram {
-  color: #f56040;
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .fa-linkedin {
   color: #0e76a8;
-}
-
-.fa-envelope {
-  color: #203968;
 }
