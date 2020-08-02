@@ -44,6 +44,11 @@ a:hover {
   background-color: #677185;
 }
 
+.btn-danger {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 /* Base structure */
 
 html,
@@ -79,9 +84,7 @@ body::-webkit-scrollbar-thumb {
   .cover-heading {
     font-size: 10vmax;
   }
-  .nav-masthead .nav-link {
-    margin: 0 1rem;
-  }
+
   .avatar {
     width: 80vw;
   }
@@ -104,10 +107,6 @@ body::-webkit-scrollbar-thumb {
 
   button {
     width: 20vw;
-  }
-
-  .btn-danger {
-    margin-bottom: 0.5rem;
   }
 
   .intro,
