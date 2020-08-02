@@ -29,7 +29,21 @@ a:hover {
   color: #fff;
   text-shadow: none;
   /* Prevent inheritance from `body` */
+  border: none;
+  font-size: small;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-secondary {
   background-color: #203968;
+}
+
+.btn-red {
+  color: #fff;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: rgb(228, 69, 69);
   border: none;
   font-size: small;
   letter-spacing: 2px;
@@ -99,7 +113,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   button {
-    width: 40vw;
+    width: 20vw;
   }
 
   .intro,
@@ -134,11 +148,11 @@ body::-webkit-scrollbar-thumb {
   }
 
   button {
-    width: 10vw;
+    width: 5vw;
   }
 
   .card {
-    margin: 2rem 1rem;
+    margin: 2rem 0;
   }
   .intro,
   .intro-centered {
