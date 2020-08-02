@@ -39,17 +39,6 @@ a:hover {
   background-color: #203968;
 }
 
-.btn-red {
-  color: #fff;
-  text-shadow: none;
-  /* Prevent inheritance from `body` */
-  background-color: rgb(228, 69, 69);
-  border: none;
-  font-size: small;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: #677185;
@@ -106,6 +95,7 @@ body::-webkit-scrollbar-thumb {
     background-color: transparent;
     text-shadow: 0 0 8px #fff;
   }
+
   input,
   select,
   textarea {
@@ -114,6 +104,10 @@ body::-webkit-scrollbar-thumb {
 
   button {
     width: 20vw;
+  }
+
+  .btn-danger {
+    margin-bottom: 0.5rem;
   }
 
   .intro,
@@ -126,12 +120,15 @@ body::-webkit-scrollbar-thumb {
   .cover-heading {
     font-size: 8vmax;
   }
+
   .avatar {
     width: 25vw;
   }
+
   .nav-masthead .nav-link {
     margin: 0 2rem;
   }
+
   .mid {
     position: absolute;
     top: 60%;
@@ -141,6 +138,7 @@ body::-webkit-scrollbar-thumb {
     background-color: transparent;
     text-shadow: 0 0 8px #fff;
   }
+
   input,
   select,
   textarea {
@@ -154,11 +152,13 @@ body::-webkit-scrollbar-thumb {
   .card {
     margin: 2rem 0;
   }
+
   .intro,
   .intro-centered {
     padding: 0.8rem 1.35rem;
     width: 85%;
   }
+  
   .card-body,
   .card-text {
     text-align: left;
