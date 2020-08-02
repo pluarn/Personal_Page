@@ -101,6 +101,11 @@ body::-webkit-scrollbar-thumb {
   button {
     width: 40vw;
   }
+
+  .intro,
+  .intro-centered {
+    padding: 0.8rem 1.25rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -135,8 +140,14 @@ body::-webkit-scrollbar-thumb {
   .card {
     margin: 2rem 1rem;
   }
-  .intro {
+  .intro,
+  .intro-centered {
+    padding: 0.8rem 1.35rem;
     width: 85%;
+  }
+  .card-body,
+  .card-text {
+    text-align: left;
   }
 }
 
@@ -245,20 +256,28 @@ body::-webkit-scrollbar-thumb {
   border-radius: 3px;
   filter: drop-shadow(6px 6px 8px #6771854f);
   line-height: 2rem;
-  padding: 0.3rem 0.8rem;
   font-size: 15px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
 
+.intro-centered {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+  filter: drop-shadow(6px 6px 8px #6771854f);
+  line-height: 2rem;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .skills {
   background-color: #fff;
   line-height: 2rem;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
-  text-align: center;
 }
 
 .bold {
@@ -316,23 +335,15 @@ button {
   letter-spacing: 2px;
   font-weight: bold;
   background-color: #fff;
-  font-size: large;
+  font-size: 16px;
 }
 
 .card-body,
 .card-text {
   background-color: #fff;
   letter-spacing: 2px;
-  font-size: medium;
-}
-
-.no-margin {
-  margin: 0 0 0.5rem 0;
-}
-
-.card-left {
   text-align: left;
-  padding: 0 0.5rem 0 1rem;
+  font-size: 15px;
 }
 
 .date {
@@ -346,7 +357,6 @@ button {
   background-color: #fff;
   color: rgb(255, 51, 51);
   font-weight: bold;
-  margin: 0;
 }
 
 /* Footer */
@@ -369,10 +379,12 @@ button {
   margin: 0 4vw;
 }
 
-.fa-code, .fa-adobe, .fa-wix, .fa-drupal {
-    background-color: #fff;
+.fa-code,
+.fa-adobe,
+.fa-wix,
+.fa-drupal {
+  background-color: #fff;
 }
-
 
 .fa-github-square {
   color: #333;
