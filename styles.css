@@ -309,7 +309,9 @@ label {
 
 .left {
   text-align: left;
-  margin: 0 0 0.75rem 0;
+  margin: 0.25rem 0 0.75rem 0;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 input,
@@ -322,6 +324,8 @@ textarea {
   background-color: #fff;
   resize: vertical;
   height: 2rem;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 textarea {
