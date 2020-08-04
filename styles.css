@@ -24,7 +24,8 @@ a:hover {
 
 /* Custom default button */
 
-.btn,
+.btn-lg,
+.btn-danger,
 .btn-secondary {
   color: #fff;
   text-shadow: none;
@@ -35,12 +36,16 @@ a:hover {
   text-transform: uppercase;
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-lg {
   background-color: #203968;
 }
 
+.btn-lg:hover,
+.btn-lg:focus,
 .btn-secondary:hover,
 .btn-secondary:focus {
+  color: white;
   background-color: #677185;
 }
 
@@ -157,7 +162,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0.8rem 1.35rem;
     width: 85%;
   }
-  
+
   .card-body,
   .card-text {
     text-align: left;
